@@ -55,6 +55,7 @@ const IndexPage = () => {
   };
   const handleIsCheck = (event) => {
     setIsChecked(event.target.checked);
+    console.log(event.target.checked);
   }
   return (
     <>

@@ -53,7 +53,7 @@ const IndexPage = () => {
   const addTodo = (todo: string) => {
     setTodos([{ id: todos.length + 1, content: todo }, ...todos])
   };
-  const handleIsCheck =(event){
+  const handleIsCheck = (event) => {
     setIsChecked(event.target.checked);
   }
   return (
